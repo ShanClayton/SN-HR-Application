@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e3675e354751021004c8d44a516d4344" extends="task" label="Human Resource" max_length="40" name="x_1298059_hr_human_resource" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Close Code" mandatory="true" max_length="40" name="close_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Duplicate Ticket" sequence="0" value="duplicate ticket"/>
+                <element inactive_on_update="false" label="Information Not Available" sequence="1" value="information not available"/>
+                <element inactive_on_update="false" label="No Action Required" sequence="2" value="no action required"/>
+                <element inactive_on_update="false" label="Out of Scope" sequence="3" value="out of scope"/>
+                <element inactive_on_update="false" label="Policy Clarification Provided" sequence="4" value="policy clarification provided"/>
+                <element inactive_on_update="false" label="Resolved by Employee" sequence="5" value="resolved by employee"/>
+                <element inactive_on_update="false" label="Resolved Successfully" sequence="6" value="resolved successfully"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="resolved" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Resolved By" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element display="true" label="Source" max_length="32" name="source" reference="sc_cat_item" type="reference"/>
+        <element label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Benefits" sequence="100" value="benefits"/>
+                <element inactive_on_update="false" label="Confidential" sequence="200" value="confidential"/>
+                <element inactive_on_update="false" label="General HR" sequence="300" value="general hr"/>
+                <element inactive_on_update="false" label="Payroll" sequence="400" value="payroll"/>
+                <element inactive_on_update="false" label="Training" sequence="500" value="training"/>
+            </choice>
+        </element>
+    </element>
+</database>
