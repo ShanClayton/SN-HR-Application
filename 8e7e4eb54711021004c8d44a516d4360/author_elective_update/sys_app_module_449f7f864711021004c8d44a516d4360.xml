@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Human Resource">15cecab54711021004c8d44a516d4340</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>HR Tickets</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1298059_hr.hr_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 07:31:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>449f7f864711021004c8d44a516d4360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HR Tickets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_app_module_449f7f864711021004c8d44a516d4360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 07:32:38</sys_updated_on>
+        <timeline_page/>
+        <title>HR Tickets</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_app_module_449f7f864711021004c8d44a516d4360</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Human Resource">15cecab54711021004c8d44a516d4340</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>HR Tickets</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1298059_hr.hr_admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 07:31:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>449f7f864711021004c8d44a516d4360</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HR Tickets</sys_name><sys_overrides/><sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package><sys_policy/><sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope><sys_update_name>sys_app_module_449f7f864711021004c8d44a516d4360</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 07:32:38</sys_updated_on><timeline_page/><title>HR Tickets</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1984665439</payload_hash>
+        <record_name>HR Tickets</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 07:32:38</sys_created_on>
+        <sys_id>860084d64711021004c8d44a516d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea2dfc7e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 07:32:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ca0084d69b11021068716c8927c8cac8</update_guid>
+        <update_guid_history>ca0084d69b11021068716c8927c8cac8:-1984665439,b7cf3b86c911021078bc212b29a889f9:1942085230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Tickets">a8a0881a4711021004c8d44a516d43e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 07:35:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>bed6690f7f4341cbae7be982f1bdaa01</sys_id>
+        <sys_metadata>449f7f864711021004c8d44a516d4360</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Tickets</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>sys_app_module_449f7f864711021004c8d44a516d4360</sys_update_name>
+        <sys_update_version display_value="sys_app_module_449f7f864711021004c8d44a516d4360">860084d64711021004c8d44a516d43c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 07:35:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
