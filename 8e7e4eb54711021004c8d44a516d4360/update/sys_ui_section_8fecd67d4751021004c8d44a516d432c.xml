@@ -4,13 +4,13 @@
             <element>com_glideapp_questionset_default_question_editor.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-02 05:50:41</sys_created_on>
-            <sys_id>8f1f96314791021004c8d44a516d4318</sys_id>
+            <sys_created_on>2024-04-05 06:12:27</sys_created_on>
+            <sys_id>03d086f64791c21004c8d44a516d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="HR Variable Editor">a36ed6fd4751021004c8d44a516d43a2</sys_ui_formatter>
             <sys_ui_section caption="Variables" display_value="Variables" name="x_1298059_hr_human_resource" sys_domain="global" view="Default view">8fecd67d4751021004c8d44a516d432c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-02 05:50:41</sys_updated_on>
+            <sys_updated_on>2024-04-05 06:12:27</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

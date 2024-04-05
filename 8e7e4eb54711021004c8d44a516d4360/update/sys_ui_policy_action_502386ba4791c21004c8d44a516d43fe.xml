@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>source</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 06:24:52</sys_created_on>
+        <sys_id>502386ba4791c21004c8d44a516d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>source</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 06:24:52</sys_updated_on>
+        <table>x_1298059_hr_human_resource</table>
+        <ui_policy display_value="Variables form section – Hidden if the Source field is Empty">04abec6e47d5421004c8d44a516d4332</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>
