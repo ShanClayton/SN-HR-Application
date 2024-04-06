@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf64b5f64751c21004c8d44a516d43e8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Close Code – Mandatory if State is Resolved or Closed.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sys_ui_policy_bf64b5f64751c21004c8d44a516d43e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-05 05:22:12</sys_updated_on>
+        <sys_updated_on>2024-04-06 07:03:46</sys_updated_on>
         <table>x_1298059_hr_human_resource</table>
         <ui_type>0</ui_type>
         <view/>
