@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1298059_hr_human_resource</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1298059_hr_human_resource">state=1^ORstate=-5^ORstate=2^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="On-Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="-5"/>
+            <item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Clear Closure Fields</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    //Use an array that will trigger the states to clear
+    var statesToClear = [1, 2, -5];
+
+    // Check if the current state is one of the states that require clearing the fields
+    if (statesToClear.indexOf(current.state.toString()) > -1) {
+        //clear the following fields
+        current.setValue('close_code', '');
+        current.setValue('close_notes', '');
+        current.setValue('closed_by', '');
+        current.setValue('resolved', '');
+        current.setValue('resolved_by', '');
+
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 04:53:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>368e1f544721c61004c8d44a516d43cc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Clear Closure Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_script_368e1f544721c61004c8d44a516d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:36:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=368e1f544721c61004c8d44a516d43cc"/>
+</record_update>

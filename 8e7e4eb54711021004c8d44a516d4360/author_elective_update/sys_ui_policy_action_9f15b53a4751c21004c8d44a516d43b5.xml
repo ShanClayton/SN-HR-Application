@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>closed_by</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 05:21:24</sys_created_on>
+        <sys_id>9f15b53a4751c21004c8d44a516d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>closed_by</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9f15b53a4751c21004c8d44a516d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 05:21:24</sys_updated_on>
+        <table>x_1298059_hr_human_resource</table>
+        <ui_policy display_value="Closed by – Read only, Visible when State is Closed.">a8f4fdf64751c21004c8d44a516d431a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_ui_policy_action_9f15b53a4751c21004c8d44a516d43b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>closed_by</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-05 05:21:24</sys_created_on><sys_id>9f15b53a4751c21004c8d44a516d43b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>closed_by</sys_name><sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package><sys_policy/><sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope><sys_update_name>sys_ui_policy_action_9f15b53a4751c21004c8d44a516d43b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-05 05:21:24</sys_updated_on><table>x_1298059_hr_human_resource</table><ui_policy display_value="Closed by – Read only, Visible when State is Closed.">a8f4fdf64751c21004c8d44a516d431a</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>40871171</payload_hash>
+        <record_name>closed_by</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 05:21:24</sys_created_on>
+        <sys_id>4f257df64751c21004c8d44a516d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eacb458770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 05:21:24</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>43257df6c751c210749ff67e84ec8322</update_guid>
+        <update_guid_history>43257df6c751c210749ff67e84ec8322:40871171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-06 22:42:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3dac2e70ea3242dd8c26a7df82d4d6f9</sys_id>
+        <sys_metadata>9f15b53a4751c21004c8d44a516d43b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>closed_by</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_9f15b53a4751c21004c8d44a516d43b5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_9f15b53a4751c21004c8d44a516d43b5">4f257df64751c21004c8d44a516d4322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-06 22:42:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

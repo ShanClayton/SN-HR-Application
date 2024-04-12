@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <conditions table="x_1298059_hr_human_resource">state=3^ORstate=6^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="6"/>
+        <active>true</active>
+        <conditions table="x_1298059_hr_human_resource">state=6^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -12,7 +11,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>300</order>
+        <order>400</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -22,22 +21,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Closure Information form section – Show if State is Closed or Resolved.</short_description>
+        <short_description>Make the comments field mandatory when state is set to resolved</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-05 05:24:02</sys_created_on>
+        <sys_created_on>2024-04-06 22:45:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>62657d3a4751c21004c8d44a516d433b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Closure Information form section – Show if State is Closed or Resolved.</sys_name>
+        <sys_id>7e9d225b475d421004c8d44a516d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make the comments field mandatory when state is set to resolved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
-        <sys_update_name>sys_ui_policy_62657d3a4751c21004c8d44a516d433b</sys_update_name>
+        <sys_update_name>sys_ui_policy_7e9d225b475d421004c8d44a516d43cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-10 05:28:14</sys_updated_on>
+        <sys_updated_on>2024-04-06 22:45:25</sys_updated_on>
         <table>x_1298059_hr_human_resource</table>
         <ui_type>0</ui_type>
         <view/>
