@@ -10,14 +10,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-05 05:28:23</sys_created_on>
         <sys_id>57b6b9ba4751c21004c8d44a516d432c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>resolved_by</sys_name>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sys_ui_policy_action_57b6b9ba4751c21004c8d44a516d432c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-05 05:28:23</sys_updated_on>
+        <sys_updated_on>2024-04-06 22:40:11</sys_updated_on>
         <table>x_1298059_hr_human_resource</table>
         <ui_policy display_value="Closure Information form section – Show if State is Closed or Resolved.">62657d3a4751c21004c8d44a516d433b</ui_policy>
         <value/>
