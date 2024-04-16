@@ -4,7 +4,7 @@
         <access>package_private</access>
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
-        <action_query>true</action_query>
+        <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>89ce5cb34799c21004c8d44a516d4383</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>State is Resolved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sys_script_89ce5cb34799c21004c8d44a516d4383</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-10 04:52:36</sys_updated_on>
+        <sys_updated_on>2024-04-14 08:38:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

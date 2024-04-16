@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>Copy Comments to Task Work Note</name>
-        <order>100</order>
+        <order>400</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -31,14 +31,14 @@
     // Check if 'Additional comments' field has changed
     if (current.comments.changes()) {
         // Query for all active HR Tasks associated with this HR Ticket
-        var hrTask = new GlideRecord('x_1298059_hr_hr_task'); // Replace 'hr_task' with the actual table name of your HR Tasks
-        hrTask.addQuery('parent', current.sys_id); // Assuming 'parent' is the field that relates tasks to the ticket
-        hrTask.addQuery('state', 'open'); // Only select active tasks
+        var hrTask = new GlideRecord('x_1298059_hr_hr_task'); // replace with your HR Task table name
+        hrTask.addQuery('parent', current.sys_id); // replace 'parent' with the actual reference field name
+        hrTask.addQuery('active', 'true'); // make sure 'active' is the correct field and 'true' is the right condition
         hrTask.query();
-        
+
         // Iterate through the list of tasks and update the work notes
         while (hrTask.next()) {
-            hrTask.work_notes = current.comments.getJournalEntry(1); // Get the most recent entry
+            hrTask.sys_journal_field = current.comments.toString(); // Directly assign the string value
             hrTask.update();
         }
     }
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c3956c14761021004c8d44a516d43af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Copy Comments to Task Work Note</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sys_script_5c3956c14761021004c8d44a516d43af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-12 07:47:31</sys_updated_on>
+        <sys_updated_on>2024-04-14 08:40:05</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
