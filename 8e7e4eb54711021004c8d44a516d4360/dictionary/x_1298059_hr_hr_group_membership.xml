@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7024071a472d421004c8d44a516d43cf" extends="sys_import_set_row" label="HR Group Membership" max_length="40" name="x_1298059_hr_hr_group_membership" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Group" label="Group" max_length="40" name="u_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User" label="User" max_length="40" name="u_user" type="string"/>
+    </element>
+</database>

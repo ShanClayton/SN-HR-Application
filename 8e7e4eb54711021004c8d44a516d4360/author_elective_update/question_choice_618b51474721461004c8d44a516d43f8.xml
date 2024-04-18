@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type">1a7a55c34721461004c8d44a516d436c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-18 08:23:49</sys_created_on>
+        <sys_id>618b51474721461004c8d44a516d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>question_choice_618b51474721461004c8d44a516d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-18 08:23:49</sys_updated_on>
+        <text>Training</text>
+        <value>training</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=618b51474721461004c8d44a516d43f8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>question_choice_618b51474721461004c8d44a516d43f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type">1a7a55c34721461004c8d44a516d436c</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-18 08:23:49</sys_created_on><sys_id>618b51474721461004c8d44a516d43f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Training</sys_name><sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package><sys_policy/><sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope><sys_update_name>question_choice_618b51474721461004c8d44a516d43f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-18 08:23:49</sys_updated_on><text>Training</text><value>training</value></question_choice><fx_price action="delete_multiple" query="id=618b51474721461004c8d44a516d43f8"/></record_update>]]></payload>
+        <payload_hash>-1881623334</payload_hash>
+        <record_name>Training</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-18 08:23:49</sys_created_on>
+        <sys_id>029bd1474721461004c8d44a516d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef04e09270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-18 08:23:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>069bd14774214610028bf674827a4cca</update_guid>
+        <update_guid_history>069bd14774214610028bf674827a4cca:-1881623334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Training">ffcbdd074721461004c8d44a516d4315</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-18 08:24:45</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>02a5ab2fdbc24039ab5a300925ea5df1</sys_id>
+        <sys_metadata>618b51474721461004c8d44a516d43f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent display_value="Type">1a7a55c34721461004c8d44a516d436c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>question_choice_618b51474721461004c8d44a516d43f8</sys_update_name>
+        <sys_update_version display_value="question_choice_618b51474721461004c8d44a516d43f8">029bd1474721461004c8d44a516d43cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-18 08:24:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
