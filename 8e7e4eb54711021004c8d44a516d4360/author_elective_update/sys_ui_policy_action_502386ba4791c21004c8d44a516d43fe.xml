@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>source</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 06:24:52</sys_created_on>
+        <sys_id>502386ba4791c21004c8d44a516d43fe</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>source</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 21:40:11</sys_updated_on>
+        <table>x_1298059_hr_human_resource</table>
+        <ui_policy display_value="Variables form section – Hidden if the Source field is Empty">04abec6e47d5421004c8d44a516d4332</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>source</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-05 06:24:52</sys_created_on><sys_id>502386ba4791c21004c8d44a516d43fe</sys_id><sys_mod_count>10</sys_mod_count><sys_name>source</sys_name><sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package><sys_policy/><sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope><sys_update_name>sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 21:40:11</sys_updated_on><table>x_1298059_hr_human_resource</table><ui_policy display_value="Variables form section – Hidden if the Source field is Empty">04abec6e47d5421004c8d44a516d4332</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1680709430</payload_hash>
+        <record_name>source</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 21:40:11</sys_created_on>
+        <sys_id>957b5de34729c61004c8d44a516d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef84d7b090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 21:40:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1d7b5de3f029c6102163be3d2c8da929</update_guid>
+        <update_guid_history>1d7b5de3f029c6102163be3d2c8da929:1680709430,947b95e38729c6109806ff23ebeb11a4:47465489,9b6b1de37529c6102434d17bb8b0cc6f:-1682917652,9e0b51e3ac29c6105cf0027f57db949c:1374620669,150b11e36829c61024aa71b8a205a6fc:-1731029444,d5aa19a3bc29c61085a497fbde5960ce:-1913025941,569ad5a33429c610665f3d0b883167c0:-1731029444,d92a9ed3b3698610fb1e1c2273dd170f:1347648393,b31a9e539a69861039f393b161e3576c:895441933,dcd5591b0ee186101b115eebd01a79b6:47465489,bcb38af69b91c2101170b9eeba24c256:1680709430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 21:41:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2a1492ef750d40a2b89ce3d1f2357284</sys_id>
+        <sys_metadata>502386ba4791c21004c8d44a516d43fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>source</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent display_value="Variables form section – Hidden if the Source field is Empty">04abec6e47d5421004c8d44a516d4332</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_502386ba4791c21004c8d44a516d43fe">957b5de34729c61004c8d44a516d432a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 21:41:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

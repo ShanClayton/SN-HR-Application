@@ -46,7 +46,7 @@
         <omit_price>false</omit_price>
         <order>100</order>
         <ordered_item_link/>
-        <owner display_value="Shan Clayton">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Shanaun Clayton">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>0cd6118f47ed061004c8d44a516d43ce</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -79,7 +79,29 @@
 * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
-*/]]></script>
+*/
+
+// Set 'Contact type' to 'Self-service' statically
+current.contact_type = 'self-service';
+
+// Determine the 'Assignment group' based on the 'type' selected by the user
+if (producer.type == 'benefits') {
+  current.assignment_group = 'adf8621647a9421004c8d44a516d433e'; // sys_id of the benefits group.
+} else if (producer.type == 'general hr') {
+  current.assignment_group = '5e29ee9247a9421004c8d44a516d4303'; //sys_id of the general hr group
+} else if (producer.type == 'payroll') {
+  current.assignment_group = '4239a61647a9421004c8d44a516d43b2'; //sys_id of the payroll group
+} else if (producer.type == 'training') {
+  current.assignment_group = '6f39a61647a9421004c8d44a516d43fd'; //sys_id of the training group
+}
+
+// Set 'Source' to the name of the Record Producer
+ current.source = 'b374158b47ed061004c8d44a516d4357';
+ // The sys_id of the record producer
+ // tried using producer.'HR General Inquiry"; but it wouldn't work. Will circle back to figure out how to not hard code it.
+
+
+]]></script>
         <short_description>Use this form to submit HR related inquires or requests,ensuring quick and effective resolution tailored to your specific needs.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -88,14 +110,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-18 07:53:01</sys_created_on>
         <sys_id>b374158b47ed061004c8d44a516d4357</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>HR General Inquiry</sys_name>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sc_cat_item_producer_b374158b47ed061004c8d44a516d4357</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-18 08:28:23</sys_updated_on>
+        <sys_updated_on>2024-04-20 19:56:16</sys_updated_on>
         <table_name>x_1298059_hr_human_resource</table_name>
         <taxonomy_topic/>
         <template/>
@@ -103,7 +125,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>31</version>
+        <version>61</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

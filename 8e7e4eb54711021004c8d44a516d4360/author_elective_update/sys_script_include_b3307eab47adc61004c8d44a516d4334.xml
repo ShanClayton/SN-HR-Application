@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1298059_hr.userInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>userInfo</name>
+        <script><![CDATA[var userInfo = Class.create();
+userInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    locationInfo: function() {
+        var location = '';
+        var contact_number = '';
+        var email = '';
+        var userid = this.getParameter('sysparm_user_sysid');
+
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', userid);
+        gr.query();
+
+        if (gr.next()) {
+            location = gr.getValue('location');
+            contact_number = gr.getValue('phone');
+            email = gr.getValue('email');
+        }
+
+        var result = {
+            location: location,
+            contact_number: phone,
+            email: email
+        };
+
+        return JSON.stringify(result); // Convert the result object to a JSON string
+    },
+    type: 'userInfo' // The type property should match the class name you've created
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 03:51:07</sys_created_on>
+        <sys_id>b3307eab47adc61004c8d44a516d4334</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>userInfo</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_script_include_b3307eab47adc61004c8d44a516d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 05:32:26</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_script_include_b3307eab47adc61004c8d44a516d4334</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1298059_hr.userInfo&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;userInfo&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var userInfo = Class.create();
+userInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    locationInfo: function() {
+        var location = '';
+        var contact_number = '';
+        var email = '';
+        var userid = this.getParameter('sysparm_user_sysid');
+
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', userid);
+        gr.query();
+
+        if (gr.next()) {
+            location = gr.getValue('location');
+            contact_number = gr.getValue('phone');
+            email = gr.getValue('email');
+        }
+
+        var result = {
+            location: location,
+            contact_number: phone,
+            email: email
+        };
+
+        return JSON.stringify(result); // Convert the result object to a JSON string
+    },
+    type: 'userInfo' // The type property should match the class name you've created
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-20 03:51:07&lt;/sys_created_on&gt;&lt;sys_id&gt;b3307eab47adc61004c8d44a516d4334&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;userInfo&lt;/sys_name&gt;&lt;sys_package display_value="Human Resource" source="x_1298059_hr"&gt;8e7e4eb54711021004c8d44a516d4360&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Human Resource"&gt;8e7e4eb54711021004c8d44a516d4360&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b3307eab47adc61004c8d44a516d4334&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 05:32:26&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>487194806</payload_hash>
+        <record_name>userInfo</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 05:32:26</sys_created_on>
+        <sys_id>cf874fef47210a1004c8d44a516d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef9fdd6e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 05:32:26</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>47874fefcd210a10e95bd19870cc482f</update_guid>
+        <update_guid_history>47874fefcd210a10e95bd19870cc482f:487194806,5347cb6ff0210a1065e69c3df07c3f01:12910131,d3d6c36fd3210a10c9ba90a0b8653aac:487194806,8976476fc2210a10415e47c66d89d421:12910131,fe92c7e7a1210a10f3e6c4a84ad4d8da:825098008,36720b2b43210a109f13fd42b6c3a16d:-1635109957,cf50feef93adc6102952f12340fa58dd:918634940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 05:41:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>20dcbe035f944f54a304f0bd03eac1b1</sys_id>
+        <sys_metadata>b3307eab47adc61004c8d44a516d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>userInfo</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>sys_script_include_b3307eab47adc61004c8d44a516d4334</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b3307eab47adc61004c8d44a516d4334">cf874fef47210a1004c8d44a516d432f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 05:41:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
