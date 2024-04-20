@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>assignment_group</field>
+        <field>type</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -41,7 +41,7 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>assignment_group</name>
+        <name>type</name>
         <order>600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-18 08:19:24</sys_created_on>
         <sys_id>1a7a55c34721461004c8d44a516d436c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Type</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>type</sys_name>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>item_option_new_1a7a55c34721461004c8d44a516d436c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-18 08:28:23</sys_updated_on>
+        <sys_updated_on>2024-04-19 02:18:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

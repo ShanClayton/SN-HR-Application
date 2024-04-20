@@ -15,7 +15,7 @@
         <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="resolved" read_only="true" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Resolved By" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
-        <element display="true" label="Source" max_length="32" name="source" read_only="true" reference="sc_cat_item" type="reference"/>
+        <element label="Source" max_length="32" name="source" read_only="true" reference="sc_cat_item" type="reference"/>
         <element label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Benefits" sequence="100" value="benefits"/>
