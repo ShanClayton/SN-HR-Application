@@ -7,15 +7,15 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="HR General Inquiry">b374158b47ed061004c8d44a516d4357</cat_item>
-        <cat_variable>IO:163851cf47ed061004c8d44a516d439c</cat_variable>
+        <cat_item display_value="Confidential Inquiry ">a1ce922f472dc61004c8d44a516d438e</cat_item>
+        <cat_variable>IO:8424aaaf476dc61004c8d44a516d439e</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Get Location, Contact, and Email</name>
+        <name>Get Location, Contact, and Email </name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
@@ -31,23 +31,22 @@
         g_form.setValue('contact_number', result.contact_number); // This matches your variable name on Record Producer
         g_form.setValue('email', result.email); // Assuming this is the variable name on your Record Producer
     });
-}
-]]></script>
+}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-20 03:56:28</sys_created_on>
+        <sys_created_on>2024-05-04 05:58:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d890322347edc61004c8d44a516d43d0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Get Location, Contact, and Email</sys_name>
+        <sys_id>4fc3d780474e861004c8d44a516d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Location, Contact, and Email </sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
-        <sys_update_name>catalog_script_client_d890322347edc61004c8d44a516d43d0</sys_update_name>
+        <sys_update_name>catalog_script_client_4fc3d780474e861004c8d44a516d4374</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-04 05:52:10</sys_updated_on>
+        <sys_updated_on>2024-05-04 05:58:57</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
