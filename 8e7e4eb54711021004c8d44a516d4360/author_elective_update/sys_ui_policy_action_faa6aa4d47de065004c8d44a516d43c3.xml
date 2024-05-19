@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>comments</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 15:31:18</sys_created_on>
+        <sys_id>faa6aa4d47de065004c8d44a516d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_update_name>sys_ui_policy_action_faa6aa4d47de065004c8d44a516d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 15:31:18</sys_updated_on>
+        <table>x_1298059_hr_hr_task</table>
+        <ui_policy display_value="Make Additional Comments Mandatory when State is set to closed">af86e64d47de065004c8d44a516d43ec</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</application>
+        <file_path/>
+        <instance_id>a503c7ccdb1a31d402022a591396199a</instance_id>
+        <instance_name>dev198269</instance_name>
+        <name>sys_ui_policy_action_faa6aa4d47de065004c8d44a516d43c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>comments</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-19 15:31:18</sys_created_on><sys_id>faa6aa4d47de065004c8d44a516d43c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>comments</sys_name><sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package><sys_policy/><sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope><sys_update_name>sys_ui_policy_action_faa6aa4d47de065004c8d44a516d43c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-19 15:31:18</sys_updated_on><table>x_1298059_hr_hr_task</table><ui_policy display_value="Make Additional Comments Mandatory when State is set to closed">af86e64d47de065004c8d44a516d43ec</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1370575321</payload_hash>
+        <record_name>comments</record_name>
+        <reverted_from/>
+        <source>c4e052b94711021004c8d44a516d43cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 15:31:18</sys_created_on>
+        <sys_id>92b6e64d47de065004c8d44a516d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f917a8c370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 15:31:18</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>96b6e64d7bde0650f641725ff5540e07</update_guid>
+        <update_guid_history>96b6e64d7bde0650f641725ff5540e07:1370575321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 17:20:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>098ad0c21b5445779dc90cbad012c5a9</sys_id>
+        <sys_metadata>faa6aa4d47de065004c8d44a516d43c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
+        <sys_parent display_value="Make closed notes Mandatory when State is set to closed">af86e64d47de065004c8d44a516d43ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
+        <sys_scope_delete display_value="">41bf1d4b9e524df087ee5d85d14cf240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_faa6aa4d47de065004c8d44a516d43c3</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_faa6aa4d47de065004c8d44a516d43c3">92b6e64d47de065004c8d44a516d4308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 17:20:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,7 +16,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Employee Separation">1f238dcc47bd4a1004c8d44a516d43c3</flow_designer_flow>
+        <flow_designer_flow display_value="Employee Seperation ver 2">ae82e4094716065004c8d44a516d434b</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -106,14 +106,14 @@ current.source = 'd59f880847b94a1004c8d44a516d430a';
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-21 06:09:53</sys_created_on>
         <sys_id>d59f880847b94a1004c8d44a516d430a</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>Employee Seperation </sys_name>
         <sys_package display_value="Human Resource" source="x_1298059_hr">8e7e4eb54711021004c8d44a516d4360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">8e7e4eb54711021004c8d44a516d4360</sys_scope>
         <sys_update_name>sc_cat_item_producer_d59f880847b94a1004c8d44a516d430a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 22:06:03</sys_updated_on>
+        <sys_updated_on>2024-05-19 07:08:04</sys_updated_on>
         <table_name>x_1298059_hr_human_resource</table_name>
         <taxonomy_topic/>
         <template/>
@@ -121,7 +121,7 @@ current.source = 'd59f880847b94a1004c8d44a516d430a';
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>62</version>
+        <version>63</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
